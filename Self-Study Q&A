@@ -1,0 +1,20 @@
+1. Mention two parts of Express that you learned about this week.
+
+    (1) Express organize code by creating route handlers for requests.
+    (2) Utilize middleware to manage code.
+
+2. Describe Middleware?
+
+    Middleware are functions that manipulate data and its action.
+
+3. Describe a Resource?
+
+Resource can be any information like a document, image, service with a type, data, and a set of methods operated on it. The methods can be the GET, POST, PUT, and DELETE request. RESTful API is a resource.
+
+4. What can the API return to help clients know if a request was successful?
+
+    API returns status code and maybe the data the client requests for.
+
+5. How can we partition our application into sub-applications?
+
+    By using routers, we can specify which data in our application goes to which sub-application.
